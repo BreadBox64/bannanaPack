@@ -1,5 +1,5 @@
-?+ launcherSetupDownload ~~/downloads/* false false `Which Minecraft Launcher are you going to use for this pack (Prisim Launcher is recommended)` `Prisim Launcher` `https://raw.githubusercontent.com/BreadBox64/server-modpack-host/refs/heads/main/files/prisim.zip` `Modrinth Launcher` `https://raw.githubusercontent.com/BreadBox64/server-modpack-host/refs/heads/main/files/modrinth.mrpack` `Curseforge Launcher` `https://raw.githubusercontent.com/BreadBox64/server-modpack-host/refs/heads/main/files/curseforge.zip`
+?+ launcherSetupDownload ~~/downloads/* false false `Which Minecraft Launcher are you going to use for this pack (Prisim Launcher is recommended)` `Prism Launcher` `https://raw.githubusercontent.com/BreadBox64/bannanaPack/refs/heads/main/files/prism.zip` `Modrinth Launcher` `https://raw.githubusercontent.com/BreadBox64/bannanaPack/refs/heads/main/files/modrinth.mrpack` `Curseforge Launcher` `https://raw.githubusercontent.com/BreadBox64/bannanaPack/refs/heads/main/files/curseforge.zip`
 ?~ minecraftInstallFolder f `Select the .minecraft folder your launcher created`
-+ config ~f/bannanaPackConfig false false https://raw.githubusercontent.com/BreadBox64/server-modpack-host/refs/heads/main/defaultConfig
++ config ~f/bannanaPackConfig false false https://raw.githubusercontent.com/BreadBox64/bannanaPack/refs/heads/main/defaultConfig
 $ addPack ~f/bannanaPackConfig
-+ initialArchive ~f/ true false `https://github.com/BreadBox64/server-modpack-host/releases/download/archive/1.0.0-initialArchive.tar.gz`
+# + initialArchive ~f/ true false `https://github.com/BreadBox64/server-modpack-host/releases/download/archive/1.0.0-initialArchive.tar.gz`
